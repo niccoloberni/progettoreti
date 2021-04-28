@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temperaturaumidita</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+   margin: 0px;
+   }
+body{ 
+   background-color:#E8D4F7;
+   font-family: 'Bebas Neue', cursive;
+}
+header{
+    background-color:#AE0D7A;
+    color:#E8D4F7;
+    padding: 40px 10px;
+    text-align: center;
+    font-size: 40px;
+}
+section{
+    Text-align: justify;
+    Margin: 20px;
+    Padding: 20px;
+}
+article{
+   Margin: 20px 0px;
+    Padding: 20px;
+   Text-align: center;
+    Border: 2px solid #FEFE33;
+    background-color:#FEFE33;
+   color:#AE0D7A;
+}
+article h2{
+   font-size: 40px;
+}
+article p{
+   font-size: 40px;
+}
+footer{
+    Padding: 10px;
+    Margin-top: 80px;
+    Font-size: 30px;
+    text-align: center;
+    color:#AE0D7A;
+}
+input[type=text], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 30%;
+  background-color: #FEFE33;
+  color: #AE0D7A;
+  padding: 5px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 70%;
+}
+
+input[type=submit]:hover {
+       background-color: #AE0D7A;
+       color:#E8D4F7;
+}     
+input[type=submit]:active {
+       color: #FEFE33;
+}
+</style>
+<body>
+  <header>
+  <h2>Data e ora:</h2>
+  <p>21/07/2021 18:23</p>
+  </header>
+  <section>
+  <article>
+  <h2>Temperatura:</h2>
+  <p>27ºC</p>
+  </article>
+  <article>
+  <h2>Umidità:</h2>
+  <p>57</p>
+  </article>
+  <footer>
+  <form action="/page2.html">
+  <label for="city">Scegli una città italiana per il confronto:</label><br>
+  <input type="text" id="city" name="city" placeholder="CITTÀ" value=""><br>
+  <input type="submit" value="Cerca">
+  </form> 
+  </footer>
+  </section>
+    </body>
+</html>
